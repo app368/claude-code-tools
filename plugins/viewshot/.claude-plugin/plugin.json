@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "viewshot",
+  "displayName": "ViewShot",
+  "version": "1.0.0",
+  "description": "Renders a single AppKit or UIKit view to PNG without launching the app, so Claude can check layout with its own eyes instead of asking for a screenshot.",
+  "author": {
+    "name": "Jack368"
+  },
+  "license": "MIT",
+  "keywords": ["appkit", "uikit", "swift", "macos", "layout", "screenshot", "snapshot"]
+}

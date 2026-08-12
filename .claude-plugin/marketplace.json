@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-tools",
+  "owner": {
+    "name": "Jack368"
+  },
+  "plugins": [
+    {
+      "name": "viewshot",
+      "source": "./plugins/viewshot",
+      "description": "Renders a single AppKit or UIKit view to PNG without launching the app, so layout work stops depending on screenshots from a human."
+    }
+  ]
+}
