@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "chatindex",
+  "displayName": "ChatIndex",
+  "version": "1.0.0",
+  "description": "Closing out a session: dumps the human's turns from the session log so no topic is lost, then separates the four products of a wrap-up — index, decisions, process file, rules queue.",
+  "author": {
+    "name": "Jack368"
+  },
+  "license": "MIT",
+  "keywords": ["session", "summary", "index", "retrospective", "documentation", "workflow"]
+}

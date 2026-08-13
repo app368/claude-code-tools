@@ -8,6 +8,11 @@
       "name": "viewshot",
       "source": "./plugins/viewshot",
       "description": "Renders a single AppKit or UIKit view to PNG without launching the app, so layout work stops depending on screenshots from a human."
+    },
+    {
+      "name": "chatindex",
+      "source": "./plugins/chatindex",
+      "description": "Closing out a session: dumps the human's turns from the session log so no topic is lost, and keeps the four products of a wrap-up apart."
     }
   ]
 }
