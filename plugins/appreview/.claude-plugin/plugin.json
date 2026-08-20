@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "appreview",
+  "displayName": "AppReview",
+  "version": "1.0.0",
+  "description": "Prepares recorded app previews for App Store Connect: checks size, duration and audio, stretches a recording to the exact required frame and lays in a silent track.",
+  "author": {
+    "name": "Jack368"
+  },
+  "license": "MIT",
+  "keywords": ["app-store", "app-preview", "video", "avfoundation", "swift", "macos", "ios"]
+}
