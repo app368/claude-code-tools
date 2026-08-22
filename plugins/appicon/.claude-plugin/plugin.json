@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "appicon",
+  "displayName": "AppIcon",
+  "version": "1.0.0",
+  "description": "Draws a full macOS app icon set in code — all ten sizes, the Contents.json listing, and simplified artwork for the small ones — and checks it at the sizes people actually see.",
+  "author": {
+    "name": "Jack368"
+  },
+  "license": "MIT",
+  "keywords": ["macos", "appkit", "swift", "icon", "app-store", "asset-catalog", "icns"]
+}

@@ -23,6 +23,18 @@ Prepares recorded app previews for App Store Connect — exact frame size, silen
 track, duration within range — and says in plain words what is wrong, instead of leaving
 you to decode a terse refusal after every upload.
 
+### [AppIcon](plugins/appicon)
+
+Draws a full macOS app icon set in code — ten sizes, the listing file, simplified artwork
+for the small ones — and puts the result on a contact sheet at the sizes people actually
+see, so the icon is judged small on white rather than large in an editor.
+
+### [AppShots](plugins/appshots)
+
+Draws App Store screenshots instead of capturing them: exact frame size by construction,
+no alpha channel, and composition chosen so the text still reads after the store squeezes
+the frame fivefold.
+
 ## Install
 
 ```
@@ -30,6 +42,8 @@ you to decode a terse refusal after every upload.
 /plugin install viewshot@claude-code-tools
 /plugin install chatindex@claude-code-tools
 /plugin install appreview@claude-code-tools
+/plugin install appicon@claude-code-tools
+/plugin install appshots@claude-code-tools
 ```
 
 To try it from a local clone instead:

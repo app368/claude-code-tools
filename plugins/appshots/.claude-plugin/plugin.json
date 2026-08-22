@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "appshots",
+  "displayName": "AppShots",
+  "version": "1.0.0",
+  "description": "Draws App Store screenshots in code instead of capturing the screen — exact frame size, no transparency, legible at the size the store actually shows them.",
+  "author": {
+    "name": "Jack368"
+  },
+  "license": "MIT",
+  "keywords": ["macos", "appkit", "swift", "app-store", "screenshots", "marketing"]
+}

@@ -18,6 +18,16 @@
       "name": "chatindex",
       "source": "./plugins/chatindex",
       "description": "Closing out a session: dumps the human's turns from the session log so no topic is lost, and keeps the four products of a wrap-up apart."
+    },
+    {
+      "name": "appicon",
+      "source": "./plugins/appicon",
+      "description": "Draws a full macOS app icon set in code — all ten sizes, the Contents.json listing, and simplified artwork for the small ones — and checks it at the sizes people actually see."
+    },
+    {
+      "name": "appshots",
+      "source": "./plugins/appshots",
+      "description": "Draws App Store screenshots in code instead of capturing the screen: exact frame size, no transparency, and legible after the store squeezes them."
     }
   ]
 }
